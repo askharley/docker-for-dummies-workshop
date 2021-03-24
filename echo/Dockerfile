@@ -11,5 +11,5 @@ ENV PORT=8080
 # command
 CMD ["echo", "Hello there."]
 
-# docker build -t demoapp ./
-# docker run demoapp
+# docker build -t echo .
+# docker run echo
